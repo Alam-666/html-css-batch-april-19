@@ -1,3 +1,57 @@
 body{
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.nav_menu{
+    padding: 30px 0px 30px 0px ;
+}
+
+.wrapper{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+.list_menu a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
     background-color: aqua;
+    color:rgb(10, 10, 10);
+    border-radius: 8px;
+    border: 1px solid  aqua;
+}
+.list_menu a:hover{
+    background-color: aquamarine;
+}
+
+.banner{
+background: aqua;    
+}
+
+.bannerWrapper{
+    padding: 150px 0px;
+    color :rgb(10, 10, 10);
+    text-align:center;
+}
+
+.media{
+    padding: 150px 0px;
+    .media_item{
+        width: 33.3333333333%;
+        img{
+            width: 100%;
+        }
+        .imageWrap{
+            background-size:cover!important;
+            background-position: center center !important ;
+            width:100%;
+            height: 300px;
+        }
+    }
 }
